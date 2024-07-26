@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "start": "npx nodemon src/index.js"
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "cors": "^2.8.5",
